@@ -1,9 +1,9 @@
 # Bootstrap-4
 ## Responsive meta tag
-BS est&aacute; desarrollado como **mobile first**, lo que significa que el c&oacute;digo esta optimizado primeramente para dispositivos m&oacute;viles.
+BS est&aacute; desarrollado como **mobile first**, lo que significa que el c&oacute;digo esta optimizado primeramente para dispositivos m&oacute;viles, seguido a continuaci&oacute;n del resto de dispositivos como tablets, laptops y PC's de escritorio.
 
-Alojarlo en el \<head>
-```js
+Debe ser alojado en el \<head>
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 ```
 
