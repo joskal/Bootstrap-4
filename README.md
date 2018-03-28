@@ -31,3 +31,8 @@ Debe ser alojado en el \<head>
 <td>&ge;1200px</td>
 </tr>
 </table>
+
+## Container
+El **container** es el contenedor principal, donde se alojarán todas las filas y columnas. Con el container también podemos centrar la página.
+
+Las filas **row** son grupos horizontales de columnas.
