@@ -36,3 +36,18 @@ Debe ser alojado en el \<head>
 El **container** es el contenedor principal, donde se alojarán todas las filas y columnas. Con el container también podemos centrar la página.
 
 Las filas **row** son grupos horizontales de columnas.
+```html
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>columna 1</h2>
+    </div>
+    <div class="col">
+      <h2>columna 2</h2>
+    </div>
+    <div class="col">
+      <h2>columna 3</h2>
+    </div>
+  </div>
+</div>
+```
