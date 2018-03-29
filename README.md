@@ -12,28 +12,28 @@ Debe ser alojado en el \<head>
 <table>
 <tr>
 <td>.col</td><td>Extra small - Smartphones vertical</td>
-<td>&le;543px</td>
+<td>&lt;576px</td>
 </tr>
 <tr>
 <td>col-sm</td><td>Small - Smartphones vertical</td>
-<td>&ge;544px &le;767px</td>
+<td>min-width: 576px;</td>
 </tr>
 <tr>
 <td>.col-md</td><td>Medium - Tablets</td>
-<td>&ge;768px &le;991px</td>
+<td>min-width: 768px;</td>
 </tr>
 <tr>
 <td>.col-lg</td><td>Large - Desktops</td>
-<td>&ge;992px &le;1199px</td>
+<td>min-width: 992px;</td>
 </tr>
 <tr>
 <td>.col-xl</td><td>Extra Large - Desktops</td>
-<td>&ge;1200px</td>
+<td>min-width: 1200px;</td>
 </tr>
 </table>
 
 ## Container
-El **container** es el contenedor principal, donde se alojarán todas las filas y columnas. Con el container también podemos centrar la página.
+La clase **container** es el contenedor principal, donde se alojarán todas las filas y columnas. La clase **container-fluid** ocupa el ancho de la pantalla. Con el container también podemos centrar la página. 
 
 Las filas **row** son grupos horizontales de columnas.
 ```html
