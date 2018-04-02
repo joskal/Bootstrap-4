@@ -54,3 +54,6 @@ Las filas **row** son grupos horizontales de columnas.
 
 ## Columnas automáticas
 La clase **.col-auto** nos permite establecer un ancho automático segun el contenido de la columna. Hay una clase auto para cada layout: **.col .col-sm-auto .col-md-auto .col-lg-auto .col-xl-auto**
+
+## Sizing
+
