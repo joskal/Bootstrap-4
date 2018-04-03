@@ -15,7 +15,7 @@ Debe ser alojado en el \<head>
 <td>&lt;576px</td>
 </tr>
 <tr>
-<td>col-sm</td><td>Small - Smartphones vertical</td>
+<td>.col-sm</td><td>Small - Smartphones vertical</td>
 <td>min-width: 576px;</td>
 </tr>
 <tr>
