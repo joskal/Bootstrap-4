@@ -56,4 +56,22 @@ Las filas **row** son grupos horizontales de columnas.
 La clase **.col-auto** nos permite establecer un ancho automático segun el contenido de la columna. Hay una clase auto para cada layout: **.col .col-sm-auto .col-md-auto .col-lg-auto .col-xl-auto**
 
 ## Sizing
+La clase **w-n** establece un porcentaje de ancho de fila para una columna en concreto. Las clases son: **.w-25 .w-50 .w75 .w-100**
 
+La clase **w-100** actúa también como separador.
+```html
+<div class="row">
+  <div class="col">
+    <h2>columna 1</h2>
+    <p>Lorem ipsum dolor</p>
+  </div>
+  <div class="col">
+    <h2>columna 2</h2>
+    <p>Lorem ipsum dolor</p>
+  </div>
+  <div class="w-50">
+    <h2>columna 3</h2>
+    <p>Esta columna ocupa el 50% del ancho de la fila</p>
+  </div>
+</div>
+```
