@@ -107,3 +107,6 @@ Las clases que se encargan de este tipo de alineación son las siguientes:
   <div class="col-4 columna"> <h2>col #2</h2> </div>
 </div>
 ```
+[Mas info aquí](https://getbootstrap.com/docs/4.0/utilities/flex/#justify-content)
+
+## Offsetting
