@@ -75,3 +75,13 @@ La clase **w-100** actúa también como separador.
   </div>
 </div>
 ```
+
+## Alineación horizontal de columnas
+Las clases que se encargan de este tipo de alineación son las siguientes:
+```html
+  .justify-content-start
+  .justify-content-center
+  .justify-content-end
+  .justify-content-around
+  .justify-content-between
+```
