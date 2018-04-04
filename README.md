@@ -90,7 +90,7 @@ Las clases que se encargan de este tipo de alineación son las siguientes:
   <div class="col-4 columna"> <h2>col #1</h2>justify-content-start </div>
   <div class="col-4 columna"> <h2>col #2</h2> </div>
 </div>
-<div class="row justify-content-center fila3">
+<div class="row justify-content-center">
   <div class="col-4 columna"> <h2>col #1</h2>justify-content-center </div>
   <div class="col-4 columna"> <h2>col #2</h2> </div>
 </div>
