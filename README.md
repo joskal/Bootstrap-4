@@ -128,3 +128,20 @@ Consiste en incrementar el margen izquierdo de la columna intercalando columnas 
   <div class="col-2 offset-6"><h3>col #2</h3>col-2 offset-6</div>
 </div>
 ```
+
+## Ordenamiento de columnas
+```html
+.order-0    - .order-12
+.order-sm-0 - .order-sm-12
+.order-md-0 - .order-md-12
+.order-lg-0 - .order-lg-12
+.order-xl-0 - .order-xl-12
+```
+```html
+<div class="row">
+  <div class="col order-4"><h4>col #1</h4></div>
+  <div class="col order-3"><h4>col #2</h4></div>
+  <div class="col order-2"><h4>col #3</h4></div>
+  <div class="col order-1"><h4>col #4</h4></div>
+</div>
+```
