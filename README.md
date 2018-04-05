@@ -110,13 +110,13 @@ Las clases que se encargan de este tipo de alineación son las siguientes:
 [Mas info aquí](https://getbootstrap.com/docs/4.0/utilities/flex/#justify-content)
 
 ## Offsetting
-Consiste en incrementar el margen de la columna intercalando columnas vacias.
+Consiste en incrementar el margen izquierdo de la columna intercalando columnas vacias.
 ```html
 .offset-1    - .offset-12
-.offset-sm-1 - .offset-sm-12
-.offset-md-1 - .offset-md-12
-.offset-lg-1 - .offset-lg-12
-.offset-xl-1 - .offset-xl-12
+.offset-sm-0 - .offset-sm-12
+.offset-md-0 - .offset-md-12
+.offset-lg-0 - .offset-lg-12
+.offset-xl-0 - .offset-xl-12
 ```
 ```html
 <div class="row">
