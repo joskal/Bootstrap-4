@@ -170,7 +170,7 @@ Las columnas se pueden anidar entre sí.
 Podemos mostrar u ocultar el contenido de las columnas.
 ```html
 d-{value} for xs
-d{layout}{value}
+d-{layout}{value}
 ```
 {layout} puede ser:
 * sm 
