@@ -166,3 +166,23 @@ Las columnas se pueden anidar entre sí.
   </div>
 </div>
 ```
+## [Display](https://getbootstrap.com/docs/4.0/utilities/display/)
+Podemos mostrar u ocultar el contenido de las columnas.
+```html
+d-{value} for xs
+d{breakpoint}{value}
+```
+{value} puede ser:
+* none
+* inline
+* inline-block
+
+```html
+<div class="row">
+  <div class="col columna d-block d-sm-none">XS - Extra Small</div>
+  <div class="col columna d-none d-sm-block d-md-none">SM - Small</div>
+  <div class="col columna d-none d-md-block d-lg-none">MD - Medium</div>
+  <div class="col columna d-none d-lg-block d-xl-none">LG - Large</div>
+  <div class="col columna d-none d-xl-block">XL - Extra Large</div>
+</div>
+```
