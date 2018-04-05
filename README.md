@@ -145,3 +145,24 @@ Consiste en incrementar el margen izquierdo de la columna intercalando columnas 
   <div class="col order-1"><h4>col #4</h4></div>
 </div>
 ```
+## Nesting
+Las columnas se pueden anidar entre sí.
+```html
+<div class="row">
+  <div class="col">
+    <h3>columna #1</h3>
+    <div class="row">
+      <div class="col">subcolumna #1</div>
+      <div class="col">subcolumna #2</div>
+    </div>
+  </div>
+  <div class="col">
+    <h3>columna #2</h3>
+    <div class="row">
+      <div class="col">subcolumna #1</div>
+      <div class="col">subcolumna #2</div>
+      <div class="col">subcolumna #3</div>
+    </div>
+  </div>
+</div>
+```
