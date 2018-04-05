@@ -170,12 +170,25 @@ Las columnas se pueden anidar entre sí.
 Podemos mostrar u ocultar el contenido de las columnas.
 ```html
 d-{value} for xs
-d{breakpoint}{value}
+d{layout}{value}
 ```
+{layout} puede ser:
+* sm 
+* md 
+* lg 
+* xl
+
+
 {value} puede ser:
 * none
 * inline
 * inline-block
+* block
+* table
+* table-cell
+* table-row
+* flex
+* inline-flex
 
 ```html
 <div class="row">
