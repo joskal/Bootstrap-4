@@ -199,3 +199,5 @@ d-{layout}{value}
   <div class="col columna d-none d-xl-block">XL - Extra Large</div>
 </div>
 ```
+## Tipografía
+Ver info en página oficial de [BOOTSTRAP 4](https://getbootstrap.com/docs/4.0/content/typography/)
