@@ -242,14 +242,14 @@ Agregar citas blockquote
 
 ## Imágenes
 ```html
-<div class="row fila no-gutters">
-  <div class="col columna">
+<div class="row no-gutters">
+  <div class="col">
     <img class="img-fluid rounded-circle float-left" src="http://lorempixel.com/200/200/sports" alt="" />
     <img class="img-fluid float-right" src="http://lorempixel.com/200/200/animals" alt="" />
   </div><!-- /.col -->
 </div><!-- /.row -->
-<div class="row fila no-gutters">
-  <div class="col columna">
+<div class="row no-gutters">
+  <div class="col">
     <figure class="figure">
       <img class="img-fluid rounded" src="http://lorempixel.com/400/400/animals" alt="" />
       <figcaption class="figure-caption"> 
