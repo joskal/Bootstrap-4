@@ -75,6 +75,14 @@ La clase **w-100** actúa también como separador.
   </div>
 </div>
 ```
+## No-gutters
+```html
+.no-gutters
+```
+Esta clase se encarga de eliminar tanto los margins como los paddings laterales de un contenedor.
+```html
+<div class="row no-gutters">....</div>
+```
 
 ## Alineación horizontal de columnas
 Las clases que se encargan de este tipo de alineación son las siguientes:
@@ -233,7 +241,22 @@ Agregar citas blockquote
 ```
 
 ## Imágenes
-disponemos de las siguientes clases para manejar imágenes.
 ```html
+<div class="row fila no-gutters">
+  <div class="col columna">
+    <img class="img-fluid rounded-circle float-left" src="http://lorempixel.com/200/200/sports" alt="" />
+    <img class="img-fluid float-right" src="http://lorempixel.com/200/200/animals" alt="" />
+  </div><!-- /.col -->
+</div><!-- /.row -->
+<div class="row fila no-gutters">
+  <div class="col columna">
+    <figure class="figure">
+      <img class="img-fluid rounded" src="http://lorempixel.com/400/400/animals" alt="" />
+      <figcaption class="figure-caption"> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, sit?</p>
+      </figcaption>
+    </figure>
+  </div><!-- /.col -->
+</div><!-- /.row -->
 
 ```
