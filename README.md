@@ -223,3 +223,11 @@ Clases para cambiar mayusculas y minusculas.
 .text-lowercase
 .text-capitalize
 ```
+Agregar citas blockquote
+```html
+<blockquote class="blockquote">
+  <p class="mb-0">Habla despacio, habla bajito y no hables demasiado</p>
+  <footer class="blockquote-footer">John Wayne <cite title="Source Title">actor de cine</cite></footer>
+</blockquote>
+
+```
