@@ -87,27 +87,28 @@ Las clases que se encargan de este tipo de alineación son las siguientes:
 ```
 ```html
 <div class="row justify-content-start">
-  <div class="col-4 columna"> <h2>col #1</h2>justify-content-start </div>
-  <div class="col-4 columna"> <h2>col #2</h2> </div>
+  <div class="col-4"> <h2>col #1</h2>justify-content-start </div>
+  <div class="col-4"> <h2>col #2</h2> </div>
 </div>
 <div class="row justify-content-center">
-  <div class="col-4 columna"> <h2>col #1</h2>justify-content-center </div>
-  <div class="col-4 columna"> <h2>col #2</h2> </div>
+  <div class="col-4"> <h2>col #1</h2>justify-content-center </div>
+  <div class="col-4"> <h2>col #2</h2> </div>
 </div>
 <div class="row justify-content-end">
-  <div class="col-4 columna"> <h2>col #1</h2> justify-content-end</div>
-  <div class="col-4 columna"> <h2>col #2</h2> </div>
+  <div class="col-4"> <h2>col #1</h2> justify-content-end</div>
+  <div class="col-4"> <h2>col #2</h2> </div>
 </div>
 <div class="row justify-content-around">
-  <div class="col-4 columna"> <h2>col #1</h2>justify-content-around </div>
-  <div class="col-4 columna"> <h2>col #2</h2> </div>
+  <div class="col-4"> <h2>col #1</h2>justify-content-around </div>
+  <div class="col-4"> <h2>col #2</h2> </div>
 </div>
 <div class="row justify-content-between">
-  <div class="col-4 columna"> <h2>col #1</h2>justify-content-between </div>
-  <div class="col-4 columna"> <h2>col #2</h2> </div>
+  <div class="col-4"> <h2>col #1</h2>justify-content-between </div>
+  <div class="col-4"> <h2>col #2</h2> </div>
 </div>
 ```
 [Mas info aquí](https://getbootstrap.com/docs/4.0/utilities/flex/#justify-content)
+[Alineacion](https://getbootstrap.com/docs/4.0/layout/grid/)
 
 ## Offsetting
 Consiste en incrementar el margen izquierdo de la columna intercalando columnas vacias.
@@ -229,5 +230,10 @@ Agregar citas blockquote
   <p class="mb-0">Habla despacio, habla bajito y no hables demasiado</p>
   <footer class="blockquote-footer">John Wayne <cite title="Source Title">actor de cine</cite></footer>
 </blockquote>
+```
+
+## Imágenes
+disponemos de las siguientes clases para manejar imágenes.
+```html
 
 ```
