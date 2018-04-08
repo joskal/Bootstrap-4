@@ -192,12 +192,34 @@ d-{layout}{value}
 
 ```html
 <div class="row">
-  <div class="col columna d-block d-sm-none">XS - Extra Small</div>
-  <div class="col columna d-none d-sm-block d-md-none">SM - Small</div>
-  <div class="col columna d-none d-md-block d-lg-none">MD - Medium</div>
-  <div class="col columna d-none d-lg-block d-xl-none">LG - Large</div>
-  <div class="col columna d-none d-xl-block">XL - Extra Large</div>
+  <div class="col d-block d-sm-none">XS - Extra Small</div>
+  <div class="col d-none d-sm-block d-md-none">SM - Small</div>
+  <div class="col d-none d-md-block d-lg-none">MD - Medium</div>
+  <div class="col d-none d-lg-block d-xl-none">LG - Large</div>
+  <div class="col d-none d-xl-block">XL - Extra Large</div>
 </div>
 ```
 ## Tipografía
 Ver info en página oficial de [BOOTSTRAP 4](https://getbootstrap.com/docs/4.0/content/typography/)
+
+Contamos con una serie de clases para alinear el texto.
+```html
+.text-left
+.text-center
+.text-right
+```
+Asimismo también contamos con clases responsive para alinear según el ancho de la pantalla.
+```html
+<div class="col-12 col-md-8">
+  <p class="text-left text-sm-right">Texto alineado a la derecha en small device</p>
+  <p class="text-left text-md-right">Texto alineado a la derecha en medium device</p>
+  <p class="text-left text-lg-right">Texto alineado a la derecha en large device</p>
+  <p class="text-left text-xl-right">Texto alineado a la derecha en extra large device</p>
+</div>
+```
+Clases para cambiar mayusculas y minusculas.
+```html
+.text-uppercase
+.text-lowercase
+.text-capitalize
+```
