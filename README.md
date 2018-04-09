@@ -32,6 +32,8 @@ Debe ser alojado en el \<head>
 </tr>
 </table>
 
+[responsive breakpoints](https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints)
+
 ## Container
 La clase **container** es el contenedor principal, donde se alojarán todas las filas y columnas. La clase **container-fluid** ocupa el ancho de la pantalla. Con el container también podemos centrar la página. 
 
@@ -51,9 +53,12 @@ Las filas **row** son grupos horizontales de columnas.
   </div>
 </div>
 ```
+[containers](https://getbootstrap.com/docs/4.0/layout/overview/#containers)
 
 ## Columnas automáticas
 La clase **.col-auto** nos permite establecer un ancho automático segun el contenido de la columna. Hay una clase auto para cada layout: **.col .col-sm-auto .col-md-auto .col-lg-auto .col-xl-auto**
+
+[Variable width content](https://getbootstrap.com/docs/4.0/layout/grid/#variable-width-content)
 
 ## Sizing
 
@@ -182,6 +187,8 @@ Consiste en incrementar el margen izquierdo de la columna intercalando columnas 
   <div class="col order-1"><h4>col #4</h4></div>
 </div>
 ```
+[Order classes](https://getbootstrap.com/docs/4.0/layout/grid/#order-classes)
+
 ## Nesting
 Las columnas se pueden anidar entre sí.
 ```html
@@ -205,7 +212,7 @@ Las columnas se pueden anidar entre sí.
 ```
 [nesting](https://getbootstrap.com/docs/4.0/layout/grid/#nesting)
 
-## [Display](https://getbootstrap.com/docs/4.0/utilities/display/)
+## Display
 Podemos mostrar u ocultar el contenido de las columnas.
 ```html
 d-{value} for xs
@@ -238,8 +245,9 @@ d-{layout}{value}
   <div class="col d-none d-xl-block">XL - Extra Large</div>
 </div>
 ```
+[Display](https://getbootstrap.com/docs/4.0/utilities/display/)
+
 ## Tipografía
-Ver info en página oficial de [BOOTSTRAP 4](https://getbootstrap.com/docs/4.0/content/typography/)
 
 Contamos con una serie de clases para alinear el texto.
 ```html
@@ -269,6 +277,7 @@ Agregar citas blockquote
   <footer class="blockquote-footer">John Wayne <cite title="Source Title">actor de cine</cite></footer>
 </blockquote>
 ```
+[Typography](https://getbootstrap.com/docs/4.0/content/typography/)
 
 ## Imágenes
 ```html
@@ -290,3 +299,4 @@ Agregar citas blockquote
 </div><!-- /.row -->
 
 ```
+[Images](https://getbootstrap.com/docs/4.0/content/images/)
