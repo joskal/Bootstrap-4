@@ -56,6 +56,7 @@ Las filas **row** son grupos horizontales de columnas.
 La clase **.col-auto** nos permite establecer un ancho automático segun el contenido de la columna. Hay una clase auto para cada layout: **.col .col-sm-auto .col-md-auto .col-lg-auto .col-xl-auto**
 
 ## Sizing
+
 La clase **w-n** establece un porcentaje de ancho de fila para una columna en concreto. Las clases son: **.w-25 .w-50 .w75 .w-100**
 
 La clase **w-100** actúa también como separador.
@@ -75,6 +76,8 @@ La clase **w-100** actúa también como separador.
   </div>
 </div>
 ```
+[sizing](https://getbootstrap.com/docs/4.0/utilities/sizing/)
+
 ## No-gutters
 ```html
 .no-gutters
@@ -83,6 +86,7 @@ Esta clase se encarga de eliminar tanto los margins como los paddings laterales 
 ```html
 <div class="row no-gutters">....</div>
 ```
+[No-gutters](https://getbootstrap.com/docs/4.0/layout/grid/#no-gutters)
 
 ## Alineación horizontal de columnas
 Las clases que se encargan de este tipo de alineación son las siguientes:
@@ -115,8 +119,31 @@ Las clases que se encargan de este tipo de alineación son las siguientes:
   <div class="col-4"> <h2>col #2</h2> </div>
 </div>
 ```
-[Mas info aquí](https://getbootstrap.com/docs/4.0/utilities/flex/#justify-content)
-[Alineacion](https://getbootstrap.com/docs/4.0/layout/grid/)
+[Horizontal alignment](https://getbootstrap.com/docs/4.0/layout/grid/#horizontal-alignment)
+
+## Alineación vertical de columnas
+clases:
+```html
+.align-self-start
+.align-self-center
+.align-self-end
+```
+```html
+<div class="container">
+  <div class="row">
+    <div class="col align-self-start">
+      One of three columns
+    </div>
+    <div class="col align-self-center">
+      One of three columns
+    </div>
+    <div class="col align-self-end">
+      One of three columns
+    </div>
+  </div>
+</div>
+```
+[Vertical alignment](https://getbootstrap.com/docs/4.0/layout/grid/#vertical-alignment)
 
 ## Offsetting
 Consiste en incrementar el margen izquierdo de la columna intercalando columnas vacias.
@@ -137,6 +164,7 @@ Consiste en incrementar el margen izquierdo de la columna intercalando columnas 
   <div class="col-2 offset-6"><h3>col #2</h3>col-2 offset-6</div>
 </div>
 ```
+[offsetting columns](https://getbootstrap.com/docs/4.0/layout/grid/#offsetting-columns)
 
 ## Ordenamiento de columnas
 ```html
@@ -175,6 +203,8 @@ Las columnas se pueden anidar entre sí.
   </div>
 </div>
 ```
+[nesting](https://getbootstrap.com/docs/4.0/layout/grid/#nesting)
+
 ## [Display](https://getbootstrap.com/docs/4.0/utilities/display/)
 Podemos mostrar u ocultar el contenido de las columnas.
 ```html
