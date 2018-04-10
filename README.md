@@ -172,6 +172,7 @@ Consiste en incrementar el margen izquierdo de la columna intercalando columnas 
 [offsetting columns](https://getbootstrap.com/docs/4.0/layout/grid/#offsetting-columns)
 
 ## Ordenamiento de columnas
+La clase .order-* nos permite cambiar el orden de las columnas con facilidad.
 ```html
 .order-0    - .order-12
 .order-sm-0 - .order-sm-12
@@ -246,6 +247,13 @@ d-{layout}{value}
 </div>
 ```
 [Display](https://getbootstrap.com/docs/4.0/utilities/display/)
+
+## Spacing
+BS4 dispone de márgenes y paddings adaptables con los que cambiar la apariencia de cualquier elemento. Disponemos de dos prefijos para manejarlos:
+* **m** - margin
+* **p** - padding
+
+[Spacing](https://getbootstrap.com/docs/4.0/utilities/spacing/#how-it-works)
 
 ## Tipografía
 
