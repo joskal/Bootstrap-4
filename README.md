@@ -253,6 +253,45 @@ BS4 dispone de márgenes y paddings adaptables con los que cambiar la apariencia
 * **m** - margin
 * **p** - padding
 
+Con estos prefijos se construyen las clases siguientes:
+<table>
+  <tr>
+    <th>margin</th><th>padding</th><th>Side</th>
+  </tr>
+  <tr>
+    <td>mt-0<br>mt-1<br>mt-2<br>mt-3<br>mt-4<br>mt-5<br>mt-auto</td>
+    <td>pt-0<br>pt-1<br>pt-2<br>pt-3<br>pt-4<br>pt-5<br>pt-auto</td>
+    <td>top</td>
+  </tr>
+  <tr>
+    <td>mb-0<br>mb-1<br>mb-2<br>mb-3<br>mb-4<br>mb-5<br>mb-auto</td>
+    <td>pb-0<br>pb-1<br>pb-2<br>pb-3<br>pb-4<br>pb-5<br>pb-auto</td>
+    <td>bottom</td>
+  </tr>
+  <tr>
+    <td>ml-0<br>ml-1<br>ml-2<br>ml-3<br>ml-4<br>ml-5<br>ml-auto</td>
+    <td>pl-0<br>pl-1<br>pl-2<br>pl-3<br>pl-4<br>pl-5<br>pl-auto</td>
+    <td>left</td>
+  </tr>
+  <tr>
+    <td>mr-0<br>mr-1<br>mr-2<br>mr-3<br>mr-4<br>mr-5<br>mr-auto</td>
+    <td>pr-0<br>pr-1<br>pr-2<br>pr-3<br>pr-4<br>pr-5<br>pr-auto</td>
+    <td>right</td>
+  </tr>
+  <tr>
+    <td>mx-0<br/>mx-1<br/>mx-2<br/>mx-3<br/>mx-4<br/>mx-5<br/>mx-auto</td>
+    <td>px-0<br/>px-1<br/>px-2<br/>px-3<br/>px-4<br/>px-5<br/>px-auto</td>
+    <td>left & right</td>
+  </tr>
+  <tr>
+    <td>my-0<br/>my-1<br/>my-2<br/>my-3<br/>my-4<br/>my-5<br/>my-auto</td>
+    <td>py-0<br/>py-1<br/>py-2<br/>py-3<br/>py-4<br/>py-5<br/>py-auto</td>
+    <td>top & bottom</td>
+  </tr>
+
+</table>
+  
+
 [Spacing](https://getbootstrap.com/docs/4.0/utilities/spacing/#how-it-works)
 
 ## Tipografía
