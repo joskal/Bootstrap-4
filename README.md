@@ -288,6 +288,12 @@ Con estos prefijos se construyen las clases siguientes:
     <td>py-0<br/>py-1<br/>py-2<br/>py-3<br/>py-4<br/>py-5</td>
     <td>top & bottom</td>
   </tr>
+  <tr>
+    <td>m-0<br/>m-1<br/>m-2<br/>m-3<br/>m-4<br/>m-5</td>
+    <td>p-0<br/>p-1<br/>p-2<br/>p-3<br/>p-4<br/>p-5</td>
+    <td>top<br>bottom<br>left<br>right</td>
+  </tr>
+
 
 </table>
   
