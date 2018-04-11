@@ -355,5 +355,49 @@ Agregar citas blockquote
 [Images](https://getbootstrap.com/docs/4.0/content/images/)
 ## Tablas
 Las clases reservadas para tablas han de ser precedidas por la clase **.table**
+```html
+.table
+.table-sm
+.table-hover
+.table-bordered
+```
+```html
+<table class="table table-bordered table-hover table-responsive">
+  <thead class="thead-inverse">
+    <th>Nombre</th>
+    <th>Edad</th>
+    <th>Pais</th>
+  </thead>
+  <tr>
+    <td>Jose</td>
+    <td>21</td>
+    <td>Espa&ntilde;a</td>
+  </tr>
+  <tr class="table-danger">
+    <td>Francisco</td>
+    <td>30</td>
+    <td>Colombia</td>
+  </tr>
+  <tr class="bg-dark text-white">
+    <td>Carlos</td>
+    <td>21</td>
+    <td>Mexico</td>
+  </tr>
+</table><!-- /.table -->
+
+```
 
 [Tables](https://getbootstrap.com/docs/4.0/content/tables/)
+
+## Media object
+Este componente nos permitira crear elementos repetitivos como comentarios de blogs, tweets y otras estructuras de redes sociales.
+```html
+<div class="media">
+  <img class="mr-3" src="..." alt="Generic placeholder image">
+  <div class="media-body">
+    <h5 class="mt-0">Media heading</h5>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  </div>
+</div>
+```
+[Media object](https://getbootstrap.com/docs/4.0/layout/media-object/)
