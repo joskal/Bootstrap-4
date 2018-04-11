@@ -353,3 +353,7 @@ Agregar citas blockquote
 
 ```
 [Images](https://getbootstrap.com/docs/4.0/content/images/)
+## Tablas
+Las clases reservadas para tablas han de ser precedidas por la clase **.table
+
+[Tables](https://getbootstrap.com/docs/4.0/content/tables/)
