@@ -401,3 +401,31 @@ Este componente nos permitira crear elementos repetitivos como comentarios de bl
 </div>
 ```
 [Media object](https://getbootstrap.com/docs/4.0/layout/media-object/)
+
+## badges
+Los badges son una especie de etiquetas que se aplican a un texto para resaltarlo. Se establece mediante la clase **.badge**.
+Con la clase **.badge-pill** con seguiremos lo mismo, pero con forma de píldora.
+```html
+<h1>Example heading <span class="badge badge-secondary">New</span></h1>
+```
+```html
+<span class="badge badge-primary">Primary</span>
+<span class="badge badge-secondary">Secondary</span>
+<span class="badge badge-success">Success</span>
+<span class="badge badge-danger">Danger</span>
+<span class="badge badge-warning">Warning</span>
+<span class="badge badge-info">Info</span>
+<span class="badge badge-light">Light</span>
+<span class="badge badge-dark">Dark</span>
+```
+```html
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+```
+[Badges](https://getbootstrap.com/docs/4.0/components/badge/)
