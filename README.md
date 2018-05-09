@@ -333,6 +333,31 @@ Agregar citas blockquote
 [Typography](https://getbootstrap.com/docs/4.0/content/typography/)
 
 ## Imágenes
+Responsive images: `.img-fluid`
+
+```html
+#Align Left / Right:
+<img src="..." class="float-left" alt="...">
+<img src="..." class="float-right" alt="...">
+
+#Center:
+<img src="..." class="mx-auto d-block" alt="...">
+
+<div class="text-center">
+  <img src="..." class="rounded" alt="...">
+</div>
+
+#picture
+<picture>
+  <source srcset="..." type="image/svg+xml">
+  <img src="..." class="img-fluid img-thumbnail" alt="...">
+</picture>
+
+#Thumbnails
+<img src="..." alt="..." class="img-thumbnail">
+```
+<hr>
+
 ```html
 <div class="row no-gutters">
   <div class="col">
@@ -353,6 +378,7 @@ Agregar citas blockquote
 
 ```
 [Images](https://getbootstrap.com/docs/4.0/content/images/)
+
 ## Tablas
 Las clases reservadas para tablas han de ser precedidas por la clase **.table**
 ```html
