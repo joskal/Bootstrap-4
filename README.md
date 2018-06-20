@@ -427,8 +427,7 @@ Este componente nos permitira crear elementos repetitivos como comentarios de bl
 </div>
 ```
 [Media object](https://getbootstrap.com/docs/4.0/layout/media-object/)
-
-## badges
+## Badges
 Los badges son una especie de etiquetas que se aplican a un texto para resaltarlo. Se establece mediante la clase **.badge**.
 Con la clase **.badge-pill** con seguiremos lo mismo, pero con forma de píldora.
 ```html
@@ -455,3 +454,20 @@ Con la clase **.badge-pill** con seguiremos lo mismo, pero con forma de píldora
 <span class="badge badge-pill badge-dark">Dark</span>
 ```
 [Badges](https://getbootstrap.com/docs/4.0/components/badge/)
+
+## Botones
+Los estilos de botones se definen a través de la clase **.btn**
+```html
+<h2>Botones</h2>
+<hr>
+<button type="button" class="btn btn-primary">primary</button>
+<button type="button" class="btn btn-secondary">secondary</button>
+<button type="button" class="btn btn-success">success</button>
+<button type="button" class="btn btn-info">info</button>
+<button type="button" class="btn btn-warning">warning</button>
+<button type="button" class="btn btn-danger">danger</button>
+<button type="button" class="btn btn-light">light</button>
+<button type="button" class="btn btn-dark">dark</button>
+<button type="button" class="btn btn-link">link</button>
+```
+[Buttons](https://getbootstrap.com/docs/4.0/components/buttons/)
