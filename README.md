@@ -469,5 +469,9 @@ Los estilos de botones se definen a través de la clase **.btn**
 <button type="button" class="btn btn-light">light</button>
 <button type="button" class="btn btn-dark">dark</button>
 <button type="button" class="btn btn-link">link</button>
+<hr>
+<button class="btn btn-primary btn-lg">Large button</button>
+<button class="btn btn-primary btn-sm">Small button</button>
+<button class="btn btn-primary btn-lg btn-block">Small button</button>
 ```
 [Buttons](https://getbootstrap.com/docs/4.1/components/buttons/)
