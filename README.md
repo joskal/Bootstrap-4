@@ -32,7 +32,7 @@ Debe ser alojado en el \<head>
 </tr>
 </table>
 
-[responsive breakpoints](https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints)
+[responsive breakpoints](https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints)
 
 ## Container
 La clase **container** es el contenedor principal, donde se alojarán todas las filas y columnas. La clase **container-fluid** ocupa el ancho de la pantalla. Con el container también podemos centrar la página. 
@@ -53,12 +53,12 @@ Las filas **row** son grupos horizontales de columnas.
   </div>
 </div>
 ```
-[containers](https://getbootstrap.com/docs/4.0/layout/overview/#containers)
+[containers](https://getbootstrap.com/docs/4.1/layout/overview/#containers)
 
 ## Columnas automáticas
 La clase **.col-auto** nos permite establecer un ancho automático segun el contenido de la columna. Hay una clase auto para cada layout: **.col .col-sm-auto .col-md-auto .col-lg-auto .col-xl-auto**
 
-[Variable width content](https://getbootstrap.com/docs/4.0/layout/grid/#variable-width-content)
+[Variable width content](https://getbootstrap.com/docs/4.1/layout/grid/#variable-width-content)
 
 ## Sizing
 
@@ -81,7 +81,7 @@ La clase **w-100** actúa también como separador.
   </div>
 </div>
 ```
-[sizing](https://getbootstrap.com/docs/4.0/utilities/sizing/)
+[sizing](https://getbootstrap.com/docs/4.1/utilities/sizing/)
 
 ## No-gutters
 ```html
@@ -91,7 +91,7 @@ Esta clase se encarga de eliminar tanto los margins como los paddings laterales 
 ```html
 <div class="row no-gutters">....</div>
 ```
-[No-gutters](https://getbootstrap.com/docs/4.0/layout/grid/#no-gutters)
+[No-gutters](https://getbootstrap.com/docs/4.1/layout/grid/#no-gutters)
 
 ## Alineación horizontal de columnas
 Las clases que se encargan de este tipo de alineación son las siguientes:
@@ -124,7 +124,7 @@ Las clases que se encargan de este tipo de alineación son las siguientes:
   <div class="col-4"> <h2>col #2</h2> </div>
 </div>
 ```
-[Horizontal alignment](https://getbootstrap.com/docs/4.0/layout/grid/#horizontal-alignment)
+[Horizontal alignment](https://getbootstrap.com/docs/4.1/layout/grid/#horizontal-alignment)
 
 ## Alineación vertical de columnas
 clases:
@@ -148,7 +148,7 @@ clases:
   </div>
 </div>
 ```
-[Vertical alignment](https://getbootstrap.com/docs/4.0/layout/grid/#vertical-alignment)
+[Vertical alignment](https://getbootstrap.com/docs/4.1/layout/grid/#vertical-alignment)
 
 ## Offsetting
 Consiste en incrementar el margen izquierdo de la columna intercalando columnas vacias.
@@ -169,7 +169,7 @@ Consiste en incrementar el margen izquierdo de la columna intercalando columnas 
   <div class="col-2 offset-6"><h3>col #2</h3>col-2 offset-6</div>
 </div>
 ```
-[offsetting columns](https://getbootstrap.com/docs/4.0/layout/grid/#offsetting-columns)
+[offsetting columns](https://getbootstrap.com/docs/4.1/layout/grid/#offsetting-columns)
 
 ## Ordenamiento de columnas
 La clase .order-* nos permite cambiar el orden de las columnas con facilidad.
@@ -188,7 +188,7 @@ La clase .order-* nos permite cambiar el orden de las columnas con facilidad.
   <div class="col order-1"><h4>col #4</h4></div>
 </div>
 ```
-[Order classes](https://getbootstrap.com/docs/4.0/layout/grid/#order-classes)
+[Order classes](https://getbootstrap.com/docs/4.1/layout/grid/#order-classes)
 
 ## Nesting
 Las columnas se pueden anidar entre sí.
@@ -211,7 +211,7 @@ Las columnas se pueden anidar entre sí.
   </div>
 </div>
 ```
-[nesting](https://getbootstrap.com/docs/4.0/layout/grid/#nesting)
+[nesting](https://getbootstrap.com/docs/4.1/layout/grid/#nesting)
 
 ## Display
 Podemos mostrar u ocultar el contenido de las columnas.
@@ -246,7 +246,7 @@ d-{layout}{value}
   <div class="col d-none d-xl-block">XL - Extra Large</div>
 </div>
 ```
-[Display](https://getbootstrap.com/docs/4.0/utilities/display/)
+[Display](https://getbootstrap.com/docs/4.1/utilities/display/)
 
 ## Spacing
 BS4 dispone de márgenes y paddings adaptables con los que cambiar la apariencia de cualquier elemento. Disponemos de dos prefijos para manejarlos:
@@ -298,7 +298,7 @@ Con estos prefijos se construyen las clases siguientes:
 </table>
   
 
-[Spacing](https://getbootstrap.com/docs/4.0/utilities/spacing/#how-it-works)
+[Spacing](https://getbootstrap.com/docs/4.1/utilities/spacing/#how-it-works)
 
 ## Tipografía
 
@@ -330,7 +330,7 @@ Agregar citas blockquote
   <footer class="blockquote-footer">John Wayne <cite title="Source Title">actor de cine</cite></footer>
 </blockquote>
 ```
-[Typography](https://getbootstrap.com/docs/4.0/content/typography/)
+[Typography](https://getbootstrap.com/docs/4.1/content/typography/)
 
 ## Imágenes
 Responsive images: `.img-fluid`
@@ -377,7 +377,7 @@ Responsive images: `.img-fluid`
 </div><!-- /.row -->
 
 ```
-[Images](https://getbootstrap.com/docs/4.0/content/images/)
+[Images](https://getbootstrap.com/docs/4.1/content/images/)
 
 ## Tablas
 Las clases reservadas para tablas han de ser precedidas por la clase **.table**
@@ -413,7 +413,7 @@ Las clases reservadas para tablas han de ser precedidas por la clase **.table**
 
 ```
 
-[Tables](https://getbootstrap.com/docs/4.0/content/tables/)
+[Tables](https://getbootstrap.com/docs/4.1/content/tables/)
 
 ## Media object
 Este componente nos permitira crear elementos repetitivos como comentarios de blogs, tweets y otras estructuras de redes sociales.
@@ -426,7 +426,7 @@ Este componente nos permitira crear elementos repetitivos como comentarios de bl
   </div>
 </div>
 ```
-[Media object](https://getbootstrap.com/docs/4.0/layout/media-object/)
+[Media object](https://getbootstrap.com/docs/4.1/layout/media-object/)
 ## Badges
 Los badges son una especie de etiquetas que se aplican a un texto para resaltarlo. Se establece mediante la clase **.badge**.
 Con la clase **.badge-pill** con seguiremos lo mismo, pero con forma de píldora.
@@ -453,7 +453,7 @@ Con la clase **.badge-pill** con seguiremos lo mismo, pero con forma de píldora
 <span class="badge badge-pill badge-light">Light</span>
 <span class="badge badge-pill badge-dark">Dark</span>
 ```
-[Badges](https://getbootstrap.com/docs/4.0/components/badge/)
+[Badges](https://getbootstrap.com/docs/4.1/components/badge/)
 
 ## Botones
 Los estilos de botones se definen a través de la clase **.btn**
@@ -470,4 +470,4 @@ Los estilos de botones se definen a través de la clase **.btn**
 <button type="button" class="btn btn-dark">dark</button>
 <button type="button" class="btn btn-link">link</button>
 ```
-[Buttons](https://getbootstrap.com/docs/4.0/components/buttons/)
+[Buttons](https://getbootstrap.com/docs/4.1/components/buttons/)
