@@ -474,4 +474,28 @@ Los estilos de botones se definen a través de la clase **.btn**
 <button class="btn btn-primary btn-sm">Small button</button>
 <button class="btn btn-primary btn-lg btn-block">Small button</button>
 ```
+## Grupos de botones
+Anidamos los botones en un div con la clase **.btn-toolbar**
+```bash
+<div class="btn-toolbar">
+  <div class="btn-group mr-3">
+    <button class="btn btn-outline-secondary">1</button>
+    <button class="btn btn-outline-secondary">2</button>
+    <button class="btn btn-outline-secondary">3</button>
+    <button class="btn btn-outline-secondary">4</button>
+  </div>
+  <div class="btn-group mr-3">
+    <button class="btn btn-outline-secondary">1</button>
+    <button class="btn btn-outline-secondary">2</button>
+    <button class="btn btn-outline-secondary">3</button>
+    <button class="btn btn-outline-secondary">4</button>
+  </div>
+  <div class="btn-group">
+    <button class="btn btn-outline-secondary">1</button>
+    <button class="btn btn-outline-secondary">2</button>
+    <button class="btn btn-outline-secondary">3</button>
+    <button class="btn btn-outline-secondary">4</button>
+  </div>
+</div>
+```
 [Buttons](https://getbootstrap.com/docs/4.1/components/buttons/)
