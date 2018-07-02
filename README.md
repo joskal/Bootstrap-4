@@ -474,8 +474,8 @@ Los estilos de botones se definen a través de la clase **.btn**
 <button class="btn btn-primary btn-sm">Small button</button>
 <button class="btn btn-primary btn-lg btn-block">Small button</button>
 ```
-## Grupos de botones
-Anidamos los botones en un div con la clase **.btn-group** que a su vez lo podremos anidar dentro de otro con la clase **.btn-toolbar**
+**Grupos de botones**<br>
+Agrupamos los botones en un div con la clase **.btn-group** que a su vez lo podremos anidar dentro de otro con la clase **.btn-toolbar**
 ```bash
 <div class="btn-toolbar">
   <div class="btn-group mr-3">
