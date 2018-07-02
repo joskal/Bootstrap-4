@@ -2,6 +2,8 @@
 ## Responsive meta tag
 BS est&aacute; desarrollado como **mobile first**, lo que significa que el c&oacute;digo est&aacute; optimizado primeramente para dispositivos m&oacute;viles, escalando gradualmente la resoluci&oacute;n del resto de dispositivos como tablets, laptops y PC's de escritorio.
 
+[create an anchor](#No-gutters)
+
 Debe ser alojado en el \<head>
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
