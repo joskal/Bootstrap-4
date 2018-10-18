@@ -19,7 +19,7 @@
 1. [Media object](#media-object)
 1. [Badges](#badges)
 1. [Botones](#botones)
-1. [](#)
+1. [Cards](#cards)
 1. [](#)
 1. [](#)
 
@@ -539,3 +539,5 @@ Las cards (tarjetas) son contenedores para mostrar la información de forma comp
   .card-img-top
   .card-img-bottom
 ```
+
+[Cards](https://getbootstrap.com/docs/4.1/components/card/)
