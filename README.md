@@ -59,7 +59,9 @@ Debe ser alojado en el \<head>
 </tr>
 </table>
 
-[responsive breakpoints](https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints)
+[Responsive breakpoints](https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints)
+
+[Starter template](https://getbootstrap.com/docs/4.1/getting-started/introduction/#starter-template)
 
 ## Container
 La clase **container** es el contenedor principal, donde se alojarán todas las filas y columnas. La clase **container-fluid** ocupa el ancho de la pantalla. Con el container también podemos centrar la página. 
