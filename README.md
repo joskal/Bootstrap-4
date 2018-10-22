@@ -537,14 +537,14 @@ Las cards (tarjetas) son contenedores para mostrar la información de forma comp
 ```  
   .card
     .card-img-top
-    .card-header
+    .card-header .alert-info
     .card-body
       .card-title
       .card-subtitle
       .card-text
       .card-link
     .card-img-bottom
-    .card-footer
+    .card-footer .text-muted
 ```
 
 [Cards](https://getbootstrap.com/docs/4.1/components/card/)
