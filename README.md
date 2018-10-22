@@ -534,6 +534,7 @@ Las cards (tarjetas) son contenedores para mostrar la información de forma comp
 
 `.card-group ` Agrupar tarjetas <br>
 `.card-deck  ` Igualar altura de tarjetas<br>
+`.card-columns ` Aplicar efecto masonry
 ```  
   .card
     .card-img-top
