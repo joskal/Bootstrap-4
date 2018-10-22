@@ -531,15 +531,19 @@ Agrupamos los botones en un div con la clase **.btn-group** que a su vez lo podr
 
 ## Cards
 Las cards (tarjetas) son contenedores para mostrar la información de forma compacta y sucinta. Estas son las clases:
-```bash
-.card
-  .card-body
-    .card-title
-    .card-subtitle
-    .card-text
-    .card-link
-  .card-img-top
-  .card-img-bottom
-```
+
+`.card-group ` Agrupar tarjetas <br>
+`.card-deck  ` Igualar altura de tarjetas<br>
+`  .card     `<br>
+`    .card-img-top`<br>
+`    .card-header` <br>
+`    .card-body`<br>
+`      .card-title`<br>
+`      .card-subtitle`<br>
+`      .card-text`<br>
+`      .card-link`<br>
+`    .card-img-bottom`<br>
+`    .card-footer`<br>
+    
 
 [Cards](https://getbootstrap.com/docs/4.1/components/card/)
