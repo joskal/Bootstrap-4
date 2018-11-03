@@ -549,3 +549,54 @@ Las cards (tarjetas) son contenedores para mostrar la información de forma comp
 ```
 
 [Cards](https://getbootstrap.com/docs/4.1/components/card/)
+
+## Carousel
+Un carrousel es un componente que visualiza una secuencia de imágenes que se van sucediendo cíclicamente.
+```
+<div class="container">
+  <div class="row">
+    <div class="col-12 mt-5">
+      <div class="carousel slide" id="principal-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#principal-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#principal-carousel" data-slide-to="1"></li>
+          <li data-target="#principal-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img src="img/carousel1.jpg" alt="">
+            <div class="carousel-caption">
+              <h4>Slide 1</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item"><img src="img/carousel2.jpg" alt="">
+            <div class="carousel-caption">
+              <h4>Slide 2</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item"><img src="img/carousel3.jpg" alt="">
+            <div class="carousel-caption">
+              <h4>Slide 3</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+          <span class="sr-only">Anterior</span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+          <span class="sr-only">Siguiente</span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div><!-- /.container -->
+
+
+
+```
+
+
