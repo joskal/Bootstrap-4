@@ -552,7 +552,7 @@ Las cards (tarjetas) son contenedores para mostrar la información de forma comp
 
 ## Carousel
 Un carrousel es un componente que visualiza una secuencia de imágenes que se van sucediendo cíclicamente.
-```
+```html
 <div class="container">
   <div class="row">
     <div class="col-12 mt-5">
