@@ -556,11 +556,15 @@ Un carousel es un componente que visualiza una secuencia de imágenes que se van
 Estructura:
 ```html
 <div class="carousel slide" id="principal-carousel" data-ride="carousel">
+  
+  <!-- Indicadores -->
   <ol class="carousel-indicators">
     <li data-target="#principal-carousel" data-slide-to="0" class="active"></li>
     <li data-target="#principal-carousel" data-slide-to="1"></li>
     <li data-target="#principal-carousel" data-slide-to="2"></li>
   </ol>
+  
+  <!-- Contenido (imágenes) -->
   <div class="carousel-inner">
     <div class="carousel-item active"><img src="img/carousel1.jpg" alt="">
       <div class="carousel-caption">
@@ -581,6 +585,8 @@ Estructura:
       </div>
     </div>
   </div>
+  
+  <!-- Botones de navegación -->
   <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
     <span class="sr-only">Anterior</span>
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
