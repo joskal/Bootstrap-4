@@ -21,6 +21,8 @@
 1. [Botones](#botones)
 1. [Cards](#cards)
 1. [Carousel](#carousel)
+1. [Collapse](#collapse)
+1. [](#)
 1. [](#)
 
 [no gutters](#no-gutters)
@@ -598,4 +600,5 @@ Estructura:
 </div>
 ```
 
-
+## Collapse
+Componente que se encarga de mostrar/ocultar información en un contenedor.
