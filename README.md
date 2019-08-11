@@ -22,7 +22,7 @@
 1. [Cards](#cards)
 1. [Carousel](#carousel)
 1. [Collapse](#collapse)
-1. [Dropdown](#)
+1. [Dropdown](#dropdown)
 1. [](#)
 
 [no gutters](#no-gutters)
@@ -665,3 +665,4 @@ Los dropdowns son botones que despliegan una lista con enlaces.
   </div>
 </div>
 ```
+[Dropdown](https://getbootstrap.com/docs/4.1/components/dropdowns/)
